@@ -11,6 +11,7 @@ nav{
     background-color: cadetblue;
     /* text-align: center; */
     display: flex;
+    flexwrap:wrap;
     justify-content: space-around;
     align-items: center;  
 }
@@ -43,10 +44,12 @@ header{
 .contact{
      padding-top: 19px;
     background-color: cadetblue;
+    flexwrap:wrap;
 }
 footer{
      padding-top: 19px;
     background-color: darkslategray;
+    flexwrap:wrap;
 
 }
 
