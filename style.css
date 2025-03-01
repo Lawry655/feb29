@@ -6,12 +6,13 @@ body{
     
     justify-content: center;
     align-items: center;
+    flex-wrap:wrap;
 }
 nav{
     background-color: cadetblue;
     /* text-align: center; */
     display: flex;
-    flexwrap:wrap;
+    flex-wrap:wrap;
     justify-content: space-around;
     align-items: center;  
 }
@@ -44,12 +45,12 @@ header{
 .contact{
      padding-top: 19px;
     background-color: cadetblue;
-    flexwrap:wrap;
+    flex-wrap:wrap;
 }
 footer{
      padding-top: 19px;
     background-color: darkslategray;
-    flexwrap:wrap;
+    flex-wrap:wrap;
 
 }
 
